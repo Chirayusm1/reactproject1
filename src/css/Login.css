@@ -1,0 +1,55 @@
+/* /src/App.css or /src/components/Login.css */
+.login-page {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-left:10%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.login-page h1 {
+    text-align: center;
+    color:black;
+}
+
+.login-form div {
+    margin-bottom: 10px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color:black;
+}
+
+.login-form input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 90%;
+    padding: 10px;  
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
